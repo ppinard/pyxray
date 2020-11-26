@@ -78,6 +78,9 @@ ENTRY_POINTS = {
         "campbell2001 = pyxray.parser.campbell2001:CampbellAtomicSubshellRadiativeWidthParser",
         "dtsa1992 subshell = pyxray.parser.dtsa:DtsaSubshellParser",
         "dtsa1992 transition = pyxray.parser.dtsa:DtsaLineParser",
+        "elam2002 = pyxray.parser.elam2002:Elam2002Parser",
+        "chantler2005 = pyxray.parser.chantler2005:Chantler2005Parser",
+        "deslattes2005 = pyxray.parser.deslattes2005:Deslattes2005Parser",
     ],
 }
 

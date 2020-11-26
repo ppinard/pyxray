@@ -143,7 +143,14 @@ def test_element_xray_transitions_with_xray_transition(
 
 
 @pytest.mark.parametrize(
-    "element, expected", [(13, 14), (6, 2), (5, 3), (4, 3), (3, 2),]
+    "element, expected",
+    [
+        (13, 14),
+        (6, 2),
+        (5, 3),
+        (4, 3),
+        (3, 2),
+    ],
 )
 def test_element_xray_transitions(database_real, element, expected):
     transitions = database_real.element_xray_transitions(element)
